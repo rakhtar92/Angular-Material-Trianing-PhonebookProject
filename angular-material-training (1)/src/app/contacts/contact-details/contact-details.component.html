@@ -5,25 +5,25 @@
 
 		</div>
 		<mat-card-title>{{contact._name}}</mat-card-title>
-		<mat-card-subtitle>Work/Department/College Name/etc.</mat-card-subtitle>
+		<mat-card-subtitle>{{contact._organisation}}/{{contact._designation}}</mat-card-subtitle>
 	</mat-card-header>
 	<mat-card-content>
 		<div class="contnet-address">
 			<mat-icon class="small-icon">domain</mat-icon>
-			<a>Home address</a>
+			<a>{{contact._address}}</a>
 		</div>
 		<div class="contnet-address">
 			<mat-icon class="small-icon">message</mat-icon>
-			<a>Home Phone</a>
+			<a>{{contact._number}}</a>
 			<mat-icon class="small-icon">local_phone</mat-icon>
 		</div>
 		<div class="contnet-address">
 			<mat-icon class="small-icon">mail</mat-icon>
-			<a>Mail</a>
+			<a>{{contact._email}}</a>
 		</div>
 		<div class="contnet-address">
 			<mat-icon class="small-icon">card_giftcard</mat-icon>
-			<a>Birthday</a>
+			<a>{{contact._birthday}}</a>
 		</div>
 <!-- <div class="container map-styles"> -->
 <agm-map [latitude]="contact._latitude" [longitude]="contact._longitude" [scrollwheel]="true" [zoom]="zoom">
