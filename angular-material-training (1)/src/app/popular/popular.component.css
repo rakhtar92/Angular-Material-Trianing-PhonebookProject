@@ -1,0 +1,24 @@
+.contacts-popular-card{
+  /* display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2em;
+  grid-auto-rows: minmax(auto, auto); */
+  width:200px;
+  height: 85px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 1px solid burlywood;
+}
+.example-header-image{
+  background-size: cover;
+}
+.contacts-popular-card:hover{
+  background-color: skyblue;
+  border: 2px solid black;
+}
+.popular-card{
+  display: inline-block;
+  padding:5px;
+}

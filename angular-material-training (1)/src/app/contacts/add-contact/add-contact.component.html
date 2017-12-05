@@ -1,0 +1,42 @@
+<h1 mat-dialog-title>Add Contacts</h1>
+<mat-input-container>
+	<input matInput #contactName placeholder="Contact Name">
+</mat-input-container>
+<mat-input-container>
+	<input matInput #contactNumber placeholder="Contact Number">
+</mat-input-container>
+<mat-input-container>
+	<input matInput #email placeholder="Email">
+</mat-input-container>
+<!-- <mat-input-container>
+	<input matInput #street placeholder="Street">
+</mat-input-container>
+<mat-input-container>
+	<input matInput #country placeholder="Country">
+</mat-input-container>
+   <mat-input-container>
+  <input matInput #state placeholder="State">
+</mat-input-container>
+  
+  <mat-input-container>
+  <input matInput #city placeholder="City">
+</mat-input-container>
+<mat-input-container>
+	<input matInput #zipCode placeholder="Postal Code">
+</mat-input-container> -->
+<mat-input-container>
+  <input matInput placeholder="Address" #address autocorrect="off" autocapitalize="off" spellcheck="off" >
+</mat-input-container>
+<mat-input-container>
+	<input matInput #organisation placeholder="Organisation">
+</mat-input-container>
+<mat-input-container>
+	<input matInput #designation placeholder="Designation">
+</mat-input-container>
+<mat-input-container>
+  <input matInput #birthday placeholder="Birthday">
+</mat-input-container>
+<mat-slide-toggle color="warn" [(ngModel)]="isFavourite">Favourite?</mat-slide-toggle>
+<hr>
+<button mat-raised-button color="primary" (click)="onSaveContacts()">Save</button>
+<button mat-raised-button (click)="onCancel()">Cancel</button>

@@ -1,0 +1,23 @@
+p {
+  font-family: Lato;
+}
+.content{
+  margin-left: 2em;
+}
+mat-sidenav{
+  width: 200px;
+}
+mat-sidenav-container{
+  top:64px;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+.icon-color{
+  border-radius: 100%;
+  background-color:blue-grey;
+  
+}
+/* .icon-color:hover{
+  background-color:white;
+} */

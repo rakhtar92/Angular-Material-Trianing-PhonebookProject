@@ -1,0 +1,24 @@
+.contact-card{
+bottom:1px;
+}
+.contact-card-image{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg');
+  background-size: cover;
+}
+.contnet-address{
+  padding:5px;
+  display: flex;
+}
+.contnet-address:hover{
+  background-color: whitesmoke;
+  border: 1em;
+}
+.small-icon{
+  font-size: 2rem;
+}
+    agm-map {
+       height: 300px;
+     }
+     .map-styles{
+padding:2px;
+     }

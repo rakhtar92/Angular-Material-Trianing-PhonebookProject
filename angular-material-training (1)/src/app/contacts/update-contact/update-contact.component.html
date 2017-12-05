@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Add Contacts</h1>
+<mat-input-container>
+  <input matInput #contactName placeholder="Contact Name">
+</mat-input-container>
+<mat-input-container>
+  <input matInput #contactNumber placeholder="Contact Number">
+</mat-input-container>
+<mat-slide-toggle color="warn" [(ngModel)]="isFavourite">Favourite?</mat-slide-toggle>
+<hr>
+<button mat-raised-button color="primary" (click)="onUpdateContacts()">Confirm</button>
+<button mat-raised-button (click)="onCancel()">Cancel</button>

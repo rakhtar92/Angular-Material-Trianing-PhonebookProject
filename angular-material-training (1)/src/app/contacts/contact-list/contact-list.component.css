@@ -1,0 +1,42 @@
+.contacts-popular-card{
+  /* display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2em;
+  grid-auto-rows: minmax(auto, auto); */
+  width:200px;
+  height: 85px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.example-header-image{
+  background-size: cover;
+}
+.contacts-popular-card:hover{
+  background-color: skyblue;
+}
+.contacts-popular-card:single-button{
+  background-color: skyblue;
+}
+.mat-list-icon {
+  /* color: rgba(0, 0, 0, 0.54); */
+  color:blueviolet;
+}
+.add-contact-fab{
+  position: absolute;
+  right:20px;
+  bottom: 20px;
+}
+.change-color:focus{
+  background: red;
+}
+.contact-div{
+  display: inline-block;
+}
+.contact-icon{
+  text-decoration: none;
+padding: 0px;
+margin: 0px;
+border:0px;
+}
